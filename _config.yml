@@ -1,15 +1,3 @@
 markdown: redcarpet
 baseurl: /projectofinal
 exclude: ['READEME.md']
-
-<!DOCTYPE html>
-<html lang="pt">
-<head>
-	<meta charset="utf-8">
-	<title>O meu ganda título</title>
-</head>
-<body>
-
-{{content}}
-
-</body>
