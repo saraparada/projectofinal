@@ -1,3 +1,8 @@
 markdown: redcarpet
 baseurl: /projectofinal
 exclude: ['README.md']
+
+collections:
+works:
+output: true
+permalink: /works/:path/
