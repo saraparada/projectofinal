@@ -1,15 +1,14 @@
 <!DOCTYPE html>
-<html lang="pt">
+<html lang="en">
 <head>
 	<meta charset="utf-8">
 	<title>O meu ganda título</title>
 </head>
-<header>
-	<h1>Título do header</h1>
-	{% include nav.html %}
-</header>
 <body>
+	{% include header.html %}
 
 	{{content}}
-	
+
+	{% include footer.html %}	
 </body>
+</html>

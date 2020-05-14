@@ -1,6 +1,14 @@
 ---
 layout: default
 ---
-
-	<h1>projects</h1>
-	<p>texto de projects</p>
+<nav>
+	<ul>
+		{% for work in site.works %}
+		<li>
+			<a href="{{site.baseurl}}/works/{{work.slug}}">{{work.title}}</a>
+			<time>{{work.year}}</time>
+			<p>{{work.category}}</p>
+		</li>
+		{% endfor %}
+	</ul>
+</nav>
