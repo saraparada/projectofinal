@@ -5,6 +5,8 @@ year: 2019
 category: "Ux design"
 ---
 
+<img src="{{ site.baseurl }}/assets/images/bolsa_de_emprego/1.png" alt="screenshot of the site login with all the job offers on the background">
+
 <h2>Bolsa de emprego — FBAUL</h2>
 
 <p>Having as a segment the alumni of the University of Fine Arts of Lisbon, the greatest needs and weaknesses have been analysed after the end of the course of the college.</p>

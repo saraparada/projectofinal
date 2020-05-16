@@ -5,6 +5,8 @@ year: 2019
 category: Editorial
 ---
 
+<img src="{{ site.baseurl }}/assets/images/americanutopia/1.png" alt="cover of the project american utopia with a squared picture of and rock on the desert twilight">
+
 <h2>American Utopia</h2>
 
 <p>This project pays attention to an essay about the movie Easy Rider. Taking American conduct and ambition as a practical case, it is noticeable that this same American ‘’stereotype’’ is, in its resolution, pragmatically fictional.</p>
