@@ -5,9 +5,11 @@ layout: default
 	<ul>
 		{% for work in site.works %}
 		<li>
-			<a href="{{site.baseurl}}/works/{{work.slug}}">{{work.title}}</a>
-			<time>{{work.year}}</time>
-			<p>{{work.tag}}</p>
+			<div class="card">
+				<a href="{{site.baseurl}}/works/{{work.slug}}">{{work.title}}
+				<time>{{work.year}}</time>
+				{{work.tag}}</a>
+			</div>
 		</li>
 		{% endfor %}
 	</ul>

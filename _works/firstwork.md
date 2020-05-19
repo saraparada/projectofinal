@@ -4,9 +4,11 @@ title: American Utopia
 year: 2019
 tag: Editorial
 ---
-
-<img src="{{ site.baseurl }}/assets/images/americanutopia/1_low.png" srcset="{{site.baseurl }}/assets/images/americanutopia/1_2x.png" alt="cover of the project american utopia with a squared picture of and rock on the desert twilight">
-
+<div class="slider">
+	<img src="{{ site.baseurl }}/assets/images/americanutopia/1.png" alt="cover of the project american utopia with a squared picture of and rock on the desert twilight">
+	<img src="{{ site.baseurl }}/assets/images/americanutopia/2.png" alt="spread of the project american utopia minimalistic design and small pictures of naturalistic details">
+	<img src="{{ site.baseurl }}/assets/images/americanutopia/3.png" alt="spread of the project american utopia minimalistic design and small pictures of naturalistic details">
+</div>
 
 <h1>American Utopia</h1>
 
