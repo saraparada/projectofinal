@@ -2,7 +2,7 @@
 layout: default
 title: Bolsa de emprego — FBAUL
 year: 2019
-category: "Ux design"
+tag: "Ux design"
 ---
 
 <img src="{{ site.baseurl }}/assets/images/bolsa_de_emprego/1.png" alt="screenshot of the site login with all the job offers on the background">

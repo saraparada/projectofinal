@@ -2,12 +2,13 @@
 layout: default
 title: American Utopia
 year: 2019
-category: Editorial
+tag: Editorial
 ---
 
-<img src="{{ site.baseurl }}/assets/images/americanutopia/1.png" alt="cover of the project american utopia with a squared picture of and rock on the desert twilight">
+<img src="{{ site.baseurl }}/assets/images/americanutopia/1_low.png" srcset="{{site.baseurl }}/assets/images/americanutopia/1_2x.png" alt="cover of the project american utopia with a squared picture of and rock on the desert twilight">
 
-<h2>American Utopia</h2>
+
+<h1>American Utopia</h1>
 
 <p>This project pays attention to an essay about the movie Easy Rider. Taking American conduct and ambition as a practical case, it is noticeable that this same American ‘’stereotype’’ is, in its resolution, pragmatically fictional.</p>
 <p>In American Utopia the fiction of the movie is deconstructed, revealing just how unsustainable the american conduct is when we confronted by freedom, pride, prejudice and exception to this freedom from the same conduct</p>
