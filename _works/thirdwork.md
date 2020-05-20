@@ -10,10 +10,8 @@ tag: "Ux design"
 
 <h1>Bolsa de Emprego</h1>
 
-<p>Este projecto teve foco na necessidade de uso de filtros e atributos no site da Imorvirtual. Além disto, considerou-se os 
-dois principais utilizadores intervenientes: os compradores e os vendedores de imóveis.</p>
+<p>Having as a segment the alumni of the University of Fine Arts of Lisbon, the greatest needs and weaknesses have been analysed after the end of the course of the college.</p>
 
-<p>Posto isto, o maior desafio foi convergir as necessidades dos dois para chegar a uma solução conveniente para ambos os 
-utilizadores, e simultâneamente torná-la lucrativa para o site da Imovirtual.</p>
+<p>With that said, it was inferred that one of the biggest pain points of this phase is precisely entering the working/professional world. As such, the faculty website job exchange was restructured to respond to this need and at the same time to encourage teachers to assist on job offers</p>
 
 <a href="https://www.behance.net/gallery/94265539/Filtros-e-atributos-Imovirtual">Case study</a>

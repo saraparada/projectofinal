@@ -1,6 +1,6 @@
 ---
 layout: default
-title: American Utopia
+title: "American Utopia"
 year: 2019
 tag: Editorial
 ---

@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Bolsa de emprego — FBAUL
+title: "Bolsa de emprego — FBAUL"
 year: 2019
 tag: "Ux design"
 ---
