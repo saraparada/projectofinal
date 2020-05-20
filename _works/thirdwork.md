@@ -10,8 +10,8 @@ tag: "Ux design"
 
 <h1>Bolsa de Emprego</h1>
 
-<p>Having as a segment the alumni of the University of Fine Arts of Lisbon, the greatest needs and weaknesses have been analysed after the end of the course of the college.</p>
-
-<p>With that said, it was inferred that one of the biggest pain points of this phase is precisely entering the working/professional world. As such, the faculty website job exchange was restructured to respond to this need and at the same time to encourage teachers to assist on job offers</p>
+<p>This project consisted on approach in a better way the filters and atributtes of the site from Imovirtual</p>
+<p>For this challenge it was developed and interactive plataform between real estate sellers and buyers in order not only to optimize the user experience but also to increase the convertion rate.</p>
+<p>The plataform consists on highly customize and personalized offer list that happens inside of the Imovirtual site without a need of the proceed the contacting a seller outside the ptalaform.</p>
 
 <a href="https://www.behance.net/gallery/94265539/Filtros-e-atributos-Imovirtual">Case study</a>
