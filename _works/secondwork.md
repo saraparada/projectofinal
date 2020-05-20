@@ -5,7 +5,10 @@ year: 2019
 tag: "Ux design"
 ---
 <div class="slider">
-	<img src="{{ site.baseurl }}/assets/images/bolsa_de_emprego/1.png" alt="screenshot of the site login with all the job offers on the background">
+	<img src="{{ site.baseurl }}/assets/images/bolsa_de_emprego/1.png" alt="screenshot of the FBAUL'S site homepage">
+	<img src="{{ site.baseurl }}/assets/images/bolsa_de_emprego/2.png" alt="screenshot of the site login with all the job offers on the background">
+	<img src="{{ site.baseurl }}/assets/images/bolsa_de_emprego/3.png" alt="screenshot of main page of the site with all the job offers available">
+	<img src="{{ site.baseurl }}/assets/images/bolsa_de_emprego/4.png" alt="job offer's page with job description and details such as salary, local and business dimension">
 </div>
 
 <h1>Bolsa de emprego — FBAUL</h1>
