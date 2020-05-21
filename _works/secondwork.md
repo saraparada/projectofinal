@@ -4,6 +4,7 @@ title: "Bolsa de emprego — FBAUL"
 year: 2019
 tag: "Ux design"
 ---
+
 <div class="slider">
 	<img src="{{ site.baseurl }}/assets/images/bolsa_de_emprego/1.png" alt="screenshot of the FBAUL'S site homepage">
 	<img src="{{ site.baseurl }}/assets/images/bolsa_de_emprego/2.png" alt="screenshot of the site login with all the job offers on the background">

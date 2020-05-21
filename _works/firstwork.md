@@ -4,6 +4,7 @@ title: "American Utopia"
 year: 2019
 tag: Editorial
 ---
+
 <div class="slider">
 	<img src="{{ site.baseurl }}/assets/images/americanutopia/1.png" alt="cover of the project american utopia with a squared picture of and rock on the desert twilight">
 	<img src="{{ site.baseurl }}/assets/images/americanutopia/2.png" alt="spread of the project american utopia minimalistic design and small pictures of naturalistic details">
