@@ -1,6 +1,6 @@
 docs_list_title: ACME Documentation
 docs: # serve para nav lista
-  - title: home
+  - title: Home
     url: 
 
   - title: About me
@@ -8,3 +8,6 @@ docs: # serve para nav lista
 
   - title: Projects
     url: projects
+
+  - title: Experience
+    url: experience

@@ -16,7 +16,7 @@
         </label>
 
         <div class="trigger">
-          {%- for item in site.data.samplelist.docs-%} <!-- liquid,dar todos os items da pasta do site data etc-->
+          {%- for item in site.data.samplelist.docs -%} <!-- liquid,dar todos os items da pasta do site data etc-->
             <a class="page-link" href="{{ site.baseurl }}/{{ item.url }}">{{ item.title }}</a> <!--criar um link com o item url e o item title-->
              <!--{%- for dropdowns in item.dropdowns-%}  liquid,dar todos os items da pasta do site data etc-->
               <!--<a class="page-link" href="{{ dropdowns.url }}">{{ dropdowns.title }}</a> criar um link com o item url e o item title-->
