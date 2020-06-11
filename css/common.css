@@ -12,11 +12,12 @@ body {
   position: fixed;
   width: 100%; 
   z-index: 3;
+  height: 60px;
+  padding-top: 20px;
 }
 
 .header .logo {
   font-size: 30px;
-  display: block;
   padding: 10px 20px;
 }
 
@@ -125,7 +126,7 @@ a {
 
 .grid {
   display: grid;
-  grid-template-columns: 1fr 2fr 1fr;
+  grid-template-columns: 1fr 6fr 1fr;
   grid-gap: 2em;
   grid-auto-rows: minmax(600px,auto);
   align-items: center;
@@ -137,20 +138,51 @@ a {
   grid-row: 1/2;
   widht:600px;
   position: relative;
-  height: 300px;
+  height: 200px;
 }
 
 .text {
       grid-column: 2/3;
       grid-row: 2/3;
+      padding-bottom: 300px;
 }
 
 .slider img {
   position: absolute;
-  animation: slideshow 25s ease-in-out infinite;
-  opacity: 0;
+  width: 100%
+  /*animation: slideshow 25s ease-in-out infinite;
+  opacity: 0;*/
 }
 
+footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: black;
+  color: white;
+}
+
+.flex-container {
+  padding-top: 200px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+}
+
+
+
+.card {
+  display: block;
+  margin: 10px;
+  padding: 60px;
+  width: 300px;
+  height: 150px;
+  box-shadow:1px 1px 4px 0 rgba(0,0,0,.1);
+}
+
+/*
 @keyframes slideshow {
   10% {opacity: 1;}
   20% {opacity: 0;}
@@ -172,24 +204,12 @@ a {
 
 .slider img:nth-child(1) {
   animation-delay: 20s;
-}
-
-.text {
-    grid-column: 2/4;
-    grid-row: 2/3;
-}
-
-footer {
-  position: fixed;
-  left: 0;
-  bottom: 0;
-  width: 100%;
-  background-color: black;
-  color: white;
-}
+}*/
 
 
-@media (min-width: 600px) {
+
+@media (min-width: 800px) {
+
     .grid {
       display: grid;
       grid-template-columns: repeat(6, 1fr);
@@ -202,12 +222,13 @@ footer {
 
     .slider {
       grid-column: 2/4;
-      grid-row: 1/2;
+      padding-bottom: 150px;
     }
 
     .text {
       grid-column: 4/6;
       grid-row: 1/2;
+      padding-top: 300px;
     }
 
     img {

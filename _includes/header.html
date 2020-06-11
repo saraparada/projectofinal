@@ -1,17 +1,16 @@
 <header class="header" role="banner">
 
   <a href="/" class="logo"> Parada </a>
-  <input class="menu-btn" type="checkbox" id="menu-btn" />
+  <input class="menu-btn" type="checkbox" id="menu-btn">
   <label class="menu-icon" for="menu-btn"><span class="nav-icon"></span></label>
   
   <ul class="menu">
-
-  <li>
-
-      {%- for item in site.data.samplelist.docs -%} <a class="page-link" href="{{ site.baseurl }}/{{ item.url }}">{{ item.title }}</a>
-      {%- endfor -%}
-
-  </li>
+    
+    {%- for item in site.data.samplelist.docs -%}
+    <li>
+      <a class="page-link" href="{{ site.baseurl }}/{{ item.url }}">{{ item.title }}</a>
+    </li>
+    {%- endfor -%}
 
 </ul>
 
