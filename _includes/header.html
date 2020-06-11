@@ -1,12 +1,11 @@
-<header class="item1" role="banner">
-
+<header class="menu" role="banner">
   <div class="wrapper">
     {%- assign default_paths = site.pages | map: "path" -%}
     {%- assign page_paths = site.header_pages | default: default_paths -%}
     <a class="site-title" rel="author" href="{{ "/" | relative_url }}">{{ site.title | escape }}</a>
-
+  </div>
     {%- if page_paths -%}
-      <nav class="site-nav">
+  <nav class="site-nav">
         <label for="nav-trigger">
           <span class="menu-icon">
             <svg viewBox="0 0 18 15" width="18px" height="15px">
@@ -23,7 +22,6 @@
             <!--{%- endfor -%}-->
           {%- endfor -%}
         </div>
-      </nav>
+    </nav>
     {%- endif -%}
-  </div>
 </header>

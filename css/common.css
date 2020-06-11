@@ -5,12 +5,13 @@ body {
 
 header {
   background: lightblue;
+  display: flex;
 }
 
 .grid {
   display: grid;
   grid-template-columns: 1fr 2fr 1fr;
-  grid-gap: 2em black;
+  grid-gap: 2em;
   grid-auto-rows: minmax(600px,auto);
   align-items: center;
 }
