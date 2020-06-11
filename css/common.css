@@ -36,16 +36,16 @@ a {
   text-decoration: none;
 }
 
+.header .menu{
+  clear:both;
+  max-height:0%; /*ver pq nao resulta*/
+  transition: max-height .2s ease-out;
+}
+
 .header ul a:hover{
   background-color: #ddd;  
 }
 
-
-.header .menu{
-  clear:both;
-  max-height:0; /*ver pq nao resulta*/
-  transition: max-height .2s ease-out;
-}
 
 .header .menu-icon{
   outline: 1px solid red;
@@ -90,8 +90,22 @@ a {
   display: none;
 }
 
-.header .menu-btn:checked ˜.menu{
+.header .menu-btn:checked ˜ .menu{
   max-height: 240px;
+}
+
+.header .menu-btn:checked ˜ .menu-icon .nav-icon{
+  background: transparent;
+}
+
+.header .menu-btn:checked ˜ .menu-icon .nav-icon:before{
+  transform: rotate(-45deg);
+  top:0;
+}
+
+.header .menu-btn:checked ˜ .menu-icon .nav-icon:after{
+  transform: rotate(45deg);
+  top:0;
 }
 
 /*.site-nav {
