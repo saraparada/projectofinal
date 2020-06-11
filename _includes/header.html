@@ -1,6 +1,6 @@
 <header class="header" role="banner">
 
-  <a href="{{ "/" | relative_url }}" class="logo"> Parada </a>
+  <a href="/" class="logo"> Parada </a>
   <input class="menu-btn" type="checkbox" id="menu-btn" />
   <label class="menu-icon" for="menu-btn"><span class="nav-icon"></span></label>
   
@@ -12,8 +12,8 @@
       {%- endfor -%}
 
   </li>
-  </ul>
-</header>
+
+</ul>
 
   <!-- AqQUIOIIII <div class="wrapper">
     {%- assign default_paths = site.pages | map: "path" -%}
@@ -36,3 +36,8 @@
              <!--{%- for dropdowns in item.dropdowns-%}  liquid,dar todos os items da pasta do site data etc-->
               <!--<a class="page-link" href="{{ dropdowns.url }}">{{ dropdowns.title }}</a> criar um link com o item url e o item title-->
             <!--{%- endfor -%}-->
+          {%- endfor -%}
+        </div>
+    </nav>
+    {%- endif -%}
+</header>
