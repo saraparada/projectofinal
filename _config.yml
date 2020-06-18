@@ -31,6 +31,9 @@ theme: minima
 plugins:
   - jekyll-feed
 
+sass:
+ sass_dir: _scss
+
 collections:
   works:
     output: true

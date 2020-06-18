@@ -1,0 +1,23 @@
+.bg-img {
+  background: url(../assets/background/background1.png) fixed center;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: -1;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+  /*background diferente*/
+
+
+/*conteudo*/
+
+.largetext {
+  margin: 5vh;
+  font-size: 20px;
+  color: #ddd;
+}
+
+
