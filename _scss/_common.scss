@@ -1,23 +1,30 @@
-$bg-color: #d9a796;
-$font-color: #26264B;
+
+$bg-color: #f2c6ab;
+$bg-color2: #d9a796;
+$font-color: #242424;
+$shadow: 1px 1px 6px 0 rgba(113, 71, 71, 0.358);
+
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;800&display=swap');
 
 body {
-  font-family: Tahoma, sans-serif;
+  font-family: 'Open Sans', sans-serif;
   margin: 0;
   background: $bg-color;
+  color: $font-color;
 }
 
 /*menu*/
 .header {
-  background: $bg-color;
-  box-shadow:1px 1px 4px 0 rgba(0,0,0,.1);
+  background: $bg-color2;
+  box-shadow:$shadow;
   position: sticky;
-  margin-top: 0; 
-  width: 100%; 
+  margin-top: 0;
+  width: 100vw; 
   z-index: 3;
   height: 60px;
   padding-top: 30px;
-  padding-bottom: 30px;
+  padding-bottom: 5px;
 }
 
 .header .logo {
@@ -38,9 +45,9 @@ body {
 
 .header ul a{
   display:block;
-  padding: 40px;
-  background: $bg-color;
-  font-size: 30px;
+  padding: 20px;
+  background: $bg-color2;
+  font-size: 20px;
   color: white;
   width: 100%;
   text-decoration: none;
@@ -63,7 +70,7 @@ body {
 
 .header .menu-icon{
   padding-right: 46px;
-  padding-top: 20px;
+  padding-top: 16px;
   position: relative;
   float: right;
   cursor: pointer;
@@ -123,7 +130,7 @@ body {
 }
 
 .header .menu-btn:checked ~ .menu{
-  height: 470px;
+  height: 264px;
 }
 
 /*conteudo*/
@@ -138,17 +145,15 @@ body {
 
 footer {
   background: $font-color;
-  color: white;
   position: static;
   bottom: 0px;
   width: 100%;
   font-size: 14px;
-  padding: 5px;
   text-align: center;
 }
 
-footer p {
-  margin: 5vh;
+footer p h1 {
+  color: white;
 }
 
 li {
@@ -156,29 +161,16 @@ li {
   margin-right: 0;
 }
 
+em {
+  text-decoration: line-through;
+}
+
 @media screen and (min-width: 700px) {
-  
-body {
-  background: blue;
-  }
 
 header {
-  height: 60px;
+  position: static;
 }
 
-.header .logo {
-  font-size: 30px;
-  font-weight: bold; 
-  text-decoration: none;
-}
-
-.header .menu-icon{
-  padding-right: 22px;
-  padding-top: 13px;
-  position: relative;
-  float: right;
-  cursor: pointer;
-}
 
   /*conteudo*/
 
@@ -207,22 +199,29 @@ header {
   padding-bottom: 20vh;
 }
 
+::-webkit-scrollbar {
+  display: none;
+}
+
   /*footer*/
 
   footer {
   background: $font-color;
-  color: white;
   position: fixed;
   margin: 0;
   width: 100%;
   font-size: 12px;
-  padding: 20px;
-  text-align: left;
   display: flex;
   }
-  footer p {
-  margin: 0vh;
-}
+
+  .footer-text h1{
+   font-size: larger;
+  }
+
+  .footer-text {
+    text-align: left;
+    margin-left: 3vw;
+  }
 
 }
 

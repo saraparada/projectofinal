@@ -3,9 +3,18 @@ layout: default
 ---
 <nav class="projects">
 		{% for work in site.works %}
-				<a href="{{site.baseurl}}/works/{{work.slug}}" class="work-title"><li class="card">{{work.title}}
-				<time>{{work.year}}</time>
-				{{work.tag}}</li></a>
+		<div class="scroll">
+		<a href="{{site.baseurl}}/works/{{work.slug}}">
+		<img src="{{ site.baseurl }}{{ work.image }}"/>
+		</a>
+		<li class="card">
+		<a href="{{site.baseurl}}/works/{{work.slug}}" class="work-title">
+		{{work.title}}
+		<time>{{work.year}}</time>
+		<p>{{work.tag}}</p>
+		</a>
+		</li>
+	</div>
 		{% endfor %}
 	</ul>
 </nav>
