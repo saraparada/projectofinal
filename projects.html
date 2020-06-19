@@ -5,7 +5,7 @@ layout: default
 		{% for work in site.works %}
 		<div class="scroll">
 		<a href="{{site.baseurl}}/works/{{work.slug}}">
-		<img src="{{ site.baseurl }}{{ work.image }}"/>
+		<img src="{{ site.baseurl }}{{ work.image }}" class="scale-up"/>
 		</a>
 		<li class="card">
 		<a href="{{site.baseurl}}/works/{{work.slug}}" class="work-title">

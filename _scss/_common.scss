@@ -25,113 +25,107 @@ body {
   height: 60px;
   padding-top: 30px;
   padding-bottom: 5px;
-}
 
-.header .logo {
-  font-size: 30px;
-  padding: 10px 20px;
-  color: $font-color;
-  font-weight: bold; 
-  text-decoration: none;
-}
+  .logo {
+    font-size: 30px;
+    padding: 8px 20px;
+    color: $font-color;
+    font-weight: normal; 
+    text-decoration: none;
+  }
 
-.header ul {
-  margin:0;
-  padding: 0;
-  list-style: none;
-  overflow: hidden;
-}
+  ul {
+    margin:0;
+    padding: 0;
+    list-style: none;
+    overflow: hidden;
 
+  a{
+      display:block;
+      padding: 20px;
+      background: $bg-color2;
+      font-size: 20px;
+      color: white;
+      width: 100%;
+      text-decoration: none;
+    }
 
-.header ul a{
-  display:block;
-  padding: 20px;
-  background: $bg-color2;
-  font-size: 20px;
-  color: white;
-  width: 100%;
-  text-decoration: none;
-}
+    a:hover{
+      background-color: #ddd;  
+    }
 
-.header .menu{
-  clear:both;
-  height:0px;
-  margin: 0;
-  width: 100%;
-  margin: 0;
-  transition: height .2s ease-out;
-  background: white;
-}
+  }
+  .menu{
+    clear:both;
+    height:0px;
+    margin: 0;
+    width: 100%;
+    margin: 0;
+    transition: height .2s ease-out;
+    background: white;
+  }
 
-.header ul a:hover{
-  background-color: #ddd;  
-}
+  .menu-icon{
+    padding-right: 46px;
+    padding-top: 16px;
+    position: relative;
+    float: right;
+    cursor: pointer;
 
+    .nav-icon{
+      background: $font-color;
+      display:block;
+      height: 4px;
+      width: 30px;
+      position: relative;
+      transition: background .2s ease-out;
+    }
 
-.header .menu-icon{
-  padding-right: 46px;
-  padding-top: 16px;
-  position: relative;
-  float: right;
-  cursor: pointer;
-}
+    .nav-icon:before{
+      background: #152840;
+      content: "";
+      display:block;
+      height: 100%;
+      width: 100%;
+      position: absolute;
+      transition: all .2s ease-out;
+      top:8px;
+    }
 
-.header .menu-icon .nav-icon{
-  background: $font-color;
-  display:block;
-  height: 4px;
-  width: 30px;
-  position: relative;
-  transition: background .2s ease-out;
-}
+    .nav-icon:after{
+      background: $font-color;
+      content: "";
+      display:block;
+      height: 100%;
+      width: 100%;
+      position: absolute;
+      transition: all .2s ease-out;
+      top:-8px;
+    }    
 
-.header .menu-icon .nav-icon:before{
-  background: #152840;
-  content: "";
-  display:block;
-  height: 100%;
-  width: 100%;
-  position: absolute;
-  transition: all .2s ease-out;
-  top:8px;
-}
-
-.header .menu-icon .nav-icon:after{
-  background: $font-color;
-  content: "";
-  display:block;
-  height: 100%;
-  width: 100%;
-  position: absolute;
-  transition: all .2s ease-out;
-  top:-8px;
-}
-
-.header .menu-btn {
+  }
+  .menu-btn {
   display: none;
+  }
+  .menu-btn:checked ~ .menu{
+    height: 200px;
+  }
+  
+  .menu-btn:checked ~ .menu-icon .nav-icon{
+    background: transparent;
+  }
+  .menu-btn:checked ~ .menu-icon .nav-icon:before{
+    transform: rotate(-45deg);
+    top: 0;
+  }
+
+  .menu-btn:checked ~ .menu-icon .nav-icon:after{
+    transform: rotate(45deg);
+    top: 0;
+  } 
 }
 
-.header .menu-btn:checked ~ .menu{
-  height: 240px;
-}
 
-.header .menu-btn:checked ~ .menu-icon .nav-icon{
-  background: transparent;
-}
-
-.header .menu-btn:checked ~ .menu-icon .nav-icon:before{
-  transform: rotate(-45deg);
-  top: 0;
-}
-
-.header .menu-btn:checked ~ .menu-icon .nav-icon:after{
-  transform: rotate(45deg);
-  top: 0;
-}
-
-.header .menu-btn:checked ~ .menu{
-  height: 264px;
-}
 
 /*conteudo*/
 
@@ -156,6 +150,18 @@ footer p h1 {
   color: white;
 }
 
+footer h1 {
+  margin-bottom: 0;
+}
+
+footer p {
+  font-size: 16px;
+}
+
+footer ul {
+  padding-left: 0;
+}
+
 li {
   list-style-type: none;
   margin-right: 0;
@@ -163,6 +169,14 @@ li {
 
 em {
   text-decoration: line-through;
+}
+
+svg {
+  width: 36px;
+  background-color: white;
+  padding: 8px;
+  border-radius: 8px;
+  margin: 6px;
 }
 
 @media screen and (min-width: 700px) {
@@ -194,7 +208,7 @@ header {
 
  .text {
   margin: 5%;
-  font-size: 14px;
+  font-size: 16px;
   max-width: 50vw;
   padding-bottom: 20vh;
 }
@@ -212,15 +226,21 @@ header {
   width: 100%;
   font-size: 12px;
   display: flex;
+  justify-content: space-between;
   }
 
   .footer-text h1{
-   font-size: larger;
+   font-size: 30px;
   }
 
   .footer-text {
     text-align: left;
     margin-left: 3vw;
+    font-size: 20px;
+  }
+
+  footer ul {
+    padding-right: 3vw;
   }
 
 }
