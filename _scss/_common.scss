@@ -4,6 +4,18 @@ $bg-color2: #d9a796;
 $font-color: #242424;
 $shadow: 1px 1px 6px 0 rgba(113, 71, 71, 0.358);
 
+@mixin scroll-vertical {
+  .slider {
+    max-width: 700px;
+    height: 300px;
+    overflow: scroll;
+
+    img {
+      width: 100%;
+    }
+  }
+}
+
 
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;800&display=swap');
 
@@ -135,15 +147,27 @@ body {
   padding-bottom: 20vh;
 }
 
+li {
+  list-style-type: none;
+  margin-right: 0;
+}
+
 /*footer*/
+
+main {
+  min-height: 10vh;
+}
 
 footer {
   background: $font-color;
-  position: static;
-  bottom: 0px;
+  left: 0;
+  bottom: 0;
   width: 100%;
   font-size: 14px;
   text-align: center;
+  color: white;
+  padding-top: 5px;
+  padding-bottom: 5px;
 }
 
 footer p h1 {
@@ -162,11 +186,6 @@ footer ul {
   padding-left: 0;
 }
 
-li {
-  list-style-type: none;
-  margin-right: 0;
-}
-
 em {
   text-decoration: line-through;
 }
@@ -179,13 +198,12 @@ svg {
   margin: 6px;
 }
 
+
 @media screen and (min-width: 700px) {
 
 header {
   position: static;
 }
-
-
   /*conteudo*/
 
 .largetext {
@@ -220,9 +238,8 @@ header {
   /*footer*/
 
   footer {
-  background: $font-color;
   position: fixed;
-  margin: 0;
+  background: $font-color;
   width: 100%;
   font-size: 12px;
   display: flex;

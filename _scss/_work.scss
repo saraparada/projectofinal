@@ -1,17 +1,10 @@
-.slider {
-    max-width: 700px;
-    height: 300px;
-    overflow: scroll;
-  }
   
-  .slider img {
-    width: 100%;
-  }
-  
+@include scroll-vertical
+
   .text {
     margin: 5%;
     font-size: 14px;
-    padding-bottom: 5vh;
+    margin-bottom: 20vh;
   }
 
   .btn {

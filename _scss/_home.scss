@@ -9,25 +9,15 @@
   background-repeat: no-repeat;
   background-size: cover;
 }
-  /*background diferente*/
-
+/*background diferente*/
 
 /*conteudo*/
 
 .largetext {
-  margin: 5vh;
+  margin: 20vh 5vw 0 5vw;
   font-size: 20px;
   color: #ddd;
+  height: 68vh;
 }
 
-footer {
-  background: $font-color;
-  color: white;
-  position: fixed;
-  bottom: 0px;
-  width: 100%;
-  font-size: 14px;
-  padding: 5px;
-  text-align: center;
-}
 
