@@ -1,7 +1,14 @@
-  
-@include scroll-vertical
+.slider {
+  max-width: 700px;
+  height: 300px;
+  overflow: scroll;
 
-  .text {
+  img {
+    width: 100%;
+  }
+}
+
+.text {
     margin: 5%;
     font-size: 14px;
     margin-bottom: 20vh;
