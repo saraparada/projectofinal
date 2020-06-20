@@ -3,6 +3,7 @@ $bg-color: #f2c6ab;
 $bg-color2: #d9a796;
 $font-color: #242424;
 $shadow: 1px 1px 6px 0 rgba(113, 71, 71, 0.358);
+$breakpoint: 700px;
 
 @mixin scroll-vertical {
   .slider {
@@ -16,7 +17,6 @@ $shadow: 1px 1px 6px 0 rgba(113, 71, 71, 0.358);
   }
 }
 
-
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;800&display=swap');
 
 body {
@@ -26,7 +26,6 @@ body {
   color: $font-color;
 }
 
-/*menu*/
 .header {
   background: $bg-color2;
   box-shadow:$shadow;
@@ -138,9 +137,6 @@ body {
 }
 
 
-
-/*conteudo*/
-
 .experience {
   font-size: 14px;
   margin: 5%;
@@ -152,7 +148,13 @@ li {
   margin-right: 0;
 }
 
-/*footer*/
+svg {
+  width: 36px;
+  background-color: white;
+  padding: 8px;
+  border-radius: 8px;
+  margin: 6px;
+}
 
 main {
   min-height: 10vh;
@@ -168,48 +170,33 @@ footer {
   color: white;
   padding-top: 5px;
   padding-bottom: 5px;
+
+  h1 {
+    color: white;
+    font-size: 16px;
+  }
+
+  h1 {
+    margin-bottom: 0;
+    color: white;
+  }
+
+  ul {
+    padding-left: 0;
+  }
+
+  em {
+    text-decoration: line-through;
+  }
+
 }
 
-footer p h1 {
-  color: white;
-}
-
-footer h1 {
-  margin-bottom: 0;
-}
-
-footer p {
-  font-size: 16px;
-}
-
-footer ul {
-  padding-left: 0;
-}
-
-em {
-  text-decoration: line-through;
-}
-
-svg {
-  width: 36px;
-  background-color: white;
-  padding: 8px;
-  border-radius: 8px;
-  margin: 6px;
-}
-
-
-@media screen and (min-width: 700px) {
+@media screen and (min-width: $breakpoint) {
 
 header {
   position: static;
 }
   /*conteudo*/
-
-.largetext {
-  font-size: 6.5vh;
-  margin-top: 0;
-}
 
  /*projects*/
 
@@ -244,19 +231,17 @@ header {
   font-size: 12px;
   display: flex;
   justify-content: space-between;
-  }
+  
+  .footer-text
+  text-align: left;
+  margin-left: 3vw;
+  font-size: 20px;
 
-  .footer-text h1{
-   font-size: 30px;
-  }
+  h1{
+    font-size: 30px;
+   }
 
-  .footer-text {
-    text-align: left;
-    margin-left: 3vw;
-    font-size: 20px;
-  }
-
-  footer ul {
+   ul {
     padding-right: 3vw;
   }
 

@@ -15,9 +15,22 @@
 
 .largetext {
   margin: 20vh 5vw 0 5vw;
-  font-size: 20px;
+  font-size: 3vh;
   color: #ddd;
   height: 68vh;
+  text-shadow: $shadow;
 }
 
+@media screen and (min-width: $breakpoint) {
 
+  .bg-img {
+    position: fixed;
+  }
+
+  .largetext {
+    margin: 20vh 10vw 0 10vw;
+    font-size: 4vh;
+    height: 100vh;
+  }
+
+}
