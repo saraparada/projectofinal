@@ -45,16 +45,6 @@
             transform: scaleY(1);
   }
 }
-@keyframes scale-up {
-  0% {
-    -webkit-transform: scaleY(0.4);
-            transform: scaleY(0.4);
-  }
-  100% {
-    -webkit-transform: scaleY(1);
-            transform: scaleY(1);
-  }
-}
 
 
 @media screen and (min-width: $breakpoint) {
